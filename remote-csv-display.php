@@ -36,7 +36,7 @@ function rcd_shortcode_handler(array $atts): string {
     // 1. Process Shortcode Attributes
     $atts = shortcode_atts(
         [
-            'url'  => 'https://gist.githubusercontent.com/lukehaas/295308b31d620583e1a6/raw/4b701290a293a3565f465c19736853e0a167d4f7/data.csv', // Default public CSV for demonstration
+            'url'  => 'https://raw.githubusercontent.com/digitalpunchid/harga_komoditas_pangan/refs/heads/main/harga_komoditas_konsumen_kota_bandung.csv', // Default public CSV
             'hide' => '',
         ],
         $atts,
@@ -59,7 +59,7 @@ function rcd_shortcode_handler(array $atts): string {
     try {
         $timezone = new DateTimeZone('Asia/Jakarta'); // GMT+7
         $now = new DateTime('now', $timezone);
-        $update_time_today = (new DateTime('today 13:30', $timezone));
+        $update_time_today = (new DateTime('today 13:40', $timezone));
         $last_fetch_timestamp = (int) get_option('rcd_last_fetch_timestamp_' . md5($csv_url), 0);
         $last_fetch_datetime = (new DateTime())->setTimestamp($last_fetch_timestamp)->setTimezone($timezone);
 
