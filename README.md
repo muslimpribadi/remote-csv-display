@@ -1,5 +1,5 @@
 # Remote CSV Display for SIMPANG.ID
-Wordpress plugin for displaying CSV from remote URL, fetches, caches, and displays data from a remote CSV file using a shortcode, update daily at 13.40 GMT+7. Build for simpang.id
+Wordpress plugin for displaying CSV from remote URL, fetches, caches, and displays data from a remote CSV file using a shortcode, update daily at GMT+7. Build for simpang.id
 
 ## How to use
 Shortcode ```[remote_csv_display url="http://example.com/data.csv" hide="id,name,address"]```

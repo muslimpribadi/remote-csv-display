@@ -59,7 +59,7 @@ function rcd_shortcode_handler(array $atts): string {
     try {
         $timezone = new DateTimeZone('Asia/Jakarta'); // GMT+7
         $now = new DateTime('now', $timezone);
-        $update_time_today = (new DateTime('today 13:40', $timezone));
+        $update_time_today = (new DateTime('today 13:30', $timezone));
         $last_fetch_timestamp = (int) get_option('rcd_last_fetch_timestamp_' . md5($csv_url), 0);
         $last_fetch_datetime = (new DateTime())->setTimestamp($last_fetch_timestamp)->setTimezone($timezone);
 
