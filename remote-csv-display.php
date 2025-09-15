@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/muslimpribadi/remote-csv-display
  * Description:       Fetches, caches, and displays data from a remote CSV file using a shortcode.
  * Version:           1.0.2
- * Author:            Gemini, Mpribadi
+ * Author:            Mpribadi, Gemini
  * Author URI:        https://www.simpang.id/penulis/muslim-pribadi/
  * Requires PHP:      8.2
  * Text Domain:       remote-csv-display

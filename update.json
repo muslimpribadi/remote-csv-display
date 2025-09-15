@@ -2,7 +2,7 @@
     "name": "Remote CSV Data Display for SIMPANG.ID",
     "slug": "remote-csv-display",
     "version": "1.0.2",
-    "author": "Gemini, Mpribadi",
+    "author": "Mpribadi, Gemini",
     "requires": "6.5",
     "tested": "6.8",
     "download_url": "https://github.com/muslimpribadi/remote-csv-display/dist/remote-csv-display.zip",
