@@ -215,19 +215,19 @@ function rcd_render_html_table(array $data, string $hide_columns): string {
             return `
             <div class="rcd-controls">
                 <div>
-                    <label for="rows-per-page-${tableId}">Show </label>
+                    <label for="rows-per-page-${tableId}">Tampilkan </label>
                     <select id="rows-per-page-${tableId}" class="rcd-rows-per-page">
                         <option value="15" ${rowsPerPage === 15 ? 'selected' : ''}>15</option>
                         <option value="25" ${rowsPerPage === 25 ? 'selected' : ''}>25</option>
                         <option value="50" ${rowsPerPage === 50 ? 'selected' : ''}>50</option>
                         <option value="100" ${rowsPerPage === 100 ? 'selected' : ''}>100</option>
                     </select>
-                    <span> entries</span>
+                    <span> data</span>
                 </div>
                 <div class="rcd-pagination-nav">
-                    <button class="rcd-prev-page">&laquo; Previous</button>
+                    <button class="rcd-prev-page">&laquo; Kembali</button>
                     <span class="rcd-page-info"></span>
-                    <button class="rcd-next-page">Next &raquo;</button>
+                    <button class="rcd-next-page">Lanjut &raquo;</button>
                 </div>
             </div>
             `;
@@ -254,7 +254,7 @@ function rcd_render_html_table(array $data, string $hide_columns): string {
         function updatePaginationInfo() {
             const pageInfoElements = container.querySelectorAll('.rcd-page-info');
             const totalPages = Math.ceil(allRowsData.length / rowsPerPage);
-            pageInfoElements.forEach(el => el.textContent = `Page ${currentPage} of ${totalPages}`);
+            pageInfoElements.forEach(el => el.textContent = `Halaman ${currentPage} dari ${totalPages}`);
 
             const prevButtons = container.querySelectorAll('.rcd-prev-page');
             const nextButtons = container.querySelectorAll('.rcd-next-page');
