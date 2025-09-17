@@ -1,14 +1,14 @@
 {
     "name": "Remote CSV Data Display for SIMPANG.ID",
     "slug": "remote-csv-display",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "author": "Mpribadi, Gemini",
     "requires": "6.5",
     "tested": "6.8",
     "download_url": "https://github.com/muslimpribadi/remote-csv-display/dist/remote-csv-display.zip",
     "sections": {
-        "description": "Fetches, caches, and displays data from a remote CSV file using a shortcode.",
-        "changelog": "<h4>Version 1.0.0 - 1.0.2</h4><ul><li>Added self-hosted update functionality.</li><li>Minor performance improvements.</li><li>Security hardening.</li><li>Cleanup on deactivation.</li></ul>"
+        "description": "HTML output enhancement for displaying remote CSV data in a table format with sorting and pagination features.",
+        "changelog": "<h4>Version 1.1.0</h4><ul><li>Add sorting features.</li><li>Add pagination features.</li></ul>"
     },
     "banners": {
         "low": "https://www.simpang.id/wp-content/uploads/2025/03/diagram-konteks-simpang-putih-300x97.webp",
