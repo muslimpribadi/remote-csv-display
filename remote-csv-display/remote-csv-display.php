@@ -371,7 +371,7 @@ function rcd_cleanup_on_deactivation(): void {
 // --- START: SELF-HOSTED PLUGIN UPDATER (HARDENED) ---
 define('RCD_PLUGIN_FILE', __FILE__);
 define('RCD_PLUGIN_SLUG', 'remote-csv-display');
-define('RCD_UPDATE_URL', 'https://github.com/muslimpribadi/remote-csv-display/dist/update.json');
+define('RCD_UPDATE_URL', 'https://github.com/muslimpribadi/remote-csv-display/update.json');
 
 function rcd_check_for_updates(object $transient): object {
     if (empty($transient->checked)) return $transient;
