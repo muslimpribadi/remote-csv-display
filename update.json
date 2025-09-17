@@ -5,7 +5,7 @@
     "author": "Mpribadi, Gemini",
     "requires": "6.5",
     "tested": "6.8.2",
-    "download_url": "https://github.com/muslimpribadi/remote-csv-display/dist/remote-csv-display.zip",
+    "download_url": "https://github.com/muslimpribadi/remote-csv-display/raw/refs/heads/main/dist/remote-csv-display.zip",
     "sections": {
         "description": "Fetches, caches, and displays data from a remote CSV file using a shortcode.",
         "changelog": "<h4>Version 1.1.0</h4><ul><li>Added column sorting.</li><li>Added pagination and limit with lazy load.</li></ul><h4>Version 1.0.0 - 1.0.2</h4><ul><li>Added self-hosted update functionality.</li><li>Minor performance improvements.</li><li>Security hardening.</li><li>Cleanup on deactivation.</li></ul>"
