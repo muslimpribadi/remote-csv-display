@@ -1,0 +1,152 @@
+.rcd-container,
+.rcd-timeline-container {
+    font-family: sans-serif;
+}
+
+.rcd-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.rcd-controls label,
+.rcd-controls .rcd-pagination-nav {
+    font-size: .9em;
+}
+
+.rcd-controls select,
+.rcd-controls button {
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.rcd-controls button:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+.rcd-pagination-nav span {
+    margin: 0 5px;
+}
+
+.rcd-table-wrapper {
+    overflow-x: auto;
+    margin: 1.5em 0;
+}
+
+.rcd-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.rcd-table th,
+.rcd-table td {
+    padding: .5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.rcd-table thead th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.rcd-table thead th.sortable::after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 4px solid transparent;
+}
+
+.rcd-table thead th.sort-asc::after {
+    border-bottom-color: #333;
+}
+
+.rcd-table thead th.sort-desc::after {
+    border-top-color: #333;
+}
+
+.rcd-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.rcd-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.rcd-timeline-container {
+    display: flex;
+    gap: 20px;
+    min-height: 450px;
+}
+
+.rcd-timeline-tabs {
+    flex: 0 0 200px;
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+.rcd-timeline-tab {
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: .95em;
+    transition: background-color .2s, color .2s;
+}
+
+.rcd-timeline-tab:hover {
+    background-color: #f5f5f5;
+}
+
+.rcd-timeline-tab.active {
+    background-color: #0073aa;
+    color: #fff;
+    font-weight: 700;
+}
+
+.rcd-timeline-content-wrapper {
+    flex: 1 1 auto;
+}
+
+.rcd-timeline-content {
+    display: none;
+}
+
+.rcd-timeline-content.active {
+    display: block;
+}
+
+.rcd-latest-price {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #333;
+}
+
+.rcd-latest-meta {
+    font-size: .9em;
+    color: #777;
+    margin-bottom: 1.5em;
+}
+
+.rcd-chart-container {
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
