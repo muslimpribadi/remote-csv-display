@@ -1,3 +1,9 @@
+> [!WARNING]
+> [BAPANAS](badanpangan.go.id) decided to gate the API access, the API that build in open data initatives, where public should have transparent access, their initatives against constitution *(Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik (UU KIP))*.<br />
+> **Asking permission 1**: Communication are sent to request permission via contact form in their website, no reply, nothing.<br />
+> **Asking permission 2**: Registration for access application through their uncompleted platform also done, but I'm dropping the initiatives after seeing their auto-reply going straight to the spam, coming from staging source address.<br />
+> Thus this project archives indefinately. 
+
 # Remote CSV Display for SIMPANG.ID
 Wordpress plugin for displaying CSV from remote URL, fetches, caches, and displays data from a remote CSV file using a shortcode, update daily at GMT+7. Build for simpang.id
 
